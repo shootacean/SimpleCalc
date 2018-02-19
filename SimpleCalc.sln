@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalc", "SimpleCalc\SimpleCalc.csproj", "{359D539A-509D-4C01-B757-35712911F63E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{92D92B42-4934-4880-AAA2-08C1CC05326E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSimpleCalc", "tests\TestSimpleCalc\TestSimpleCalc.csproj", "{53EBC600-1F78-448F-93E8-5E2A79624D0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{359D539A-509D-4C01-B757-35712911F63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{359D539A-509D-4C01-B757-35712911F63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{359D539A-509D-4C01-B757-35712911F63E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EBC600-1F78-448F-93E8-5E2A79624D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EBC600-1F78-448F-93E8-5E2A79624D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EBC600-1F78-448F-93E8-5E2A79624D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EBC600-1F78-448F-93E8-5E2A79624D0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53EBC600-1F78-448F-93E8-5E2A79624D0A} = {92D92B42-4934-4880-AAA2-08C1CC05326E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82EC7CF4-7E61-4888-B56D-786258402486}
